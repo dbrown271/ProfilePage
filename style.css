@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px dashed red; */
+    font-family: 'Roboto', sans-serif;
+}
+
+#header {
+    background-color: rgb(57, 57, 57);
+    color: #ffffff;
+    height: 80px;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+
+}
+
+.nav-title {
+    color: white;
+}
+
+.nav-links {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: flex-start;
+    gap: 230px;
+    color: white;
+}
+
+.button {
+    background-color: darkturquoise;
+    color: white;
+    border-color:  black;
+    box-shadow: 3px 3px black;
+    width: 215px;
+    border-style: double
+}
+
+
+.container {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    gap: 115px;
+}
+
+.aside {
+    flex: 1;
+}
+
+.main {
+    flex: 2;
+}
+
+
+
+#profile {
+    /* background-color: aqua; */
+    font-size: 15px;
+    /* padding: 25px; */
+    margin-bottom: 30px;
+    border: 2px solid gray;
+}
+
+.profile-block {
+    background-color: rgb(24, 110, 130);
+    padding: 10px;
+}
+
+
+.pic-icon {
+    width: 125px;
+    padding: 0px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.icons {
+    width: 15px;
+}
+
+
+.info {
+    padding: 20px;
+    margin: 30px;
+}
+
+
+#education {
+    /* background-color: blue; */
+    /* padding: 25px; */
+    border: 2px solid gray;
+}
+
+.education-block {
+    background-color: rgb(113, 113, 113);
+    padding: 10px;
+    color: white;
+}
+
+.edu-text {
+    padding: 20px;
+}
+
+
+
+
+#connection-request {
+    background-color: white;
+    margin-bottom: 45px;
+    border: 2px solid gray;
+    height: 235px;
+}
+
+
+.users {
+    width: 70px;
+    display: flex;
+    margin: 16px;
+}
+
+.users-2 {
+    width: 70px;
+    position: relative;
+    bottom: 172px;
+    left: 195px;
+}
+
+.users-3 {
+    width: 70px;
+    position: relative;
+    bottom: 86px;
+    left: 47px;
+}
+
+.con-text{
+    position: relative;
+    bottom: 222px;
+    left: 91px;
+}
+
+.con-text2 {
+    position: relative;
+    bottom: 160px;
+    left: 91px;
+}
+
+#your-connects {
+    background-color: white;
+    border: 2px solid gray;
+    height: 400px;
+}
+
+.con-pics {
+    width: 70px;
+    display: flex;
+    position: relative;
+    left: 20px;
+    padding: 2px;
+}
+
+.con-text3 {
+    display: flex;
+    position: relative;
+    bottom: 280px;
+    left: 86px;
+    padding: 25px;
+}
